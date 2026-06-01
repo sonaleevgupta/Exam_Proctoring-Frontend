@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+/* Global background for the entire app */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #FFD372;
+  min-height: 100vh;
+}
+.instruction-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.instruction-list li {
+  align-items: flex-start;
+}
+
+.instruction-number {
+  display: inline-block;
+  min-width: 2em; 
+  text-align: right;
+  font-weight: bold;
+}
+
+.exam-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  background: white; /* Optional: for better contrast */
+}
+
+.form-check-input {
+    accent-color: #007bff; /* Bootstrap primary color */
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+
+
+
+/* Centered card for forms */
+.form-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2em 2.5em;
+  margin: 2em auto;
+  max-width: 400px;
+}
+
+/* Stylish button */
+button {
+  background: #ffb200;
+  color: #222;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7em 2em;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #ffd372;
+}
+
+
+
+
